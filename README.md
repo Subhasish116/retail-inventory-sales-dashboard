@@ -1,173 +1,147 @@
-# Retail-inventory-sales-dashboard
-Interactive Retail Store Inventory &amp; Sales Dashboard built in Microsoft Excel using Pivot Tables, Pivot Charts, Slicers, and KPI Cards for business analysis.
+📦 Retail Inventory Sales Analysis | Excel & MySQL
+📌 Project Overview
 
-# 📊 Retail Store Inventory & Sales Dashboard | Microsoft Excel
+This project is an end-to-end Retail Inventory Sales Analysis project developed using Microsoft Excel and MySQL. The objective is to transform raw retail inventory data into meaningful business insights through data cleaning, visualization, database management, and SQL analysis.
 
-## 📌 Project Overview
+The project begins with data exploration and dashboard creation in Microsoft Excel and continues with database design, data import, and business analysis using MySQL.
 
-This project is an interactive **Retail Store Inventory & Sales Dashboard** developed entirely in **Microsoft Excel**. The goal of this project is to analyze retail inventory and sales data, monitor key business performance indicators (KPIs), and provide meaningful business insights through interactive visualizations.
+The dataset contains over 73,000 retail sales records, covering inventory levels, product sales, pricing, discounts, demand forecasts, promotions, and revenue.
 
-The dashboard enables users to filter data dynamically using slicers and evaluate inventory, revenue, sales performance, pricing, and demand forecasting across different regions, categories, stores, and seasons.
+🎯 Project Objectives
+Clean and prepare raw retail inventory data.
+Build an interactive Excel dashboard.
+Create a relational database in MySQL.
+Import and manage large datasets.
+Analyze inventory and sales performance.
+Generate business insights using SQL.
+Support data-driven business decisions.
 
----
+🛠️ Tools Used
+Microsoft Excel
+MySQL
+MySQL Workbench
+SQL
+📂 Dataset Information
 
-## 🎯 Project Objectives
+The dataset consists of 73,000+ records and 20 columns covering retail inventory, pricing, sales, and demand forecasting.
 
-- Clean and prepare raw retail data.
-- Create meaningful business KPIs.
-- Analyze inventory and sales performance.
-- Compare product pricing with competitor pricing.
-- Monitor seasonal demand forecasts.
-- Build an interactive Excel dashboard for business decision-making.
+Dataset Columns
+Date
+Store ID
+Product ID
+Category
+Region
+Inventory Level
+Units Sold
+Units Ordered
+Demand Forecast
+Price
+Discount
+Weather Condition
+Holiday / Promotion
+Competitor Pricing
+Seasonality
+Final Price
+Revenue
+Inventory Remaining
+Price Difference
+Price Difference Percentage
 
----
 
-## 🛠️ Tools Used
+📊 Excel Dashboard
+Excel Skills Demonstrated
+Data Cleaning
+Pivot Tables
+Pivot Charts
+KPI Cards
+Interactive Dashboard
+Slicers
+Conditional Formatting
+Business Reporting
 
-- Microsoft Excel
-- Pivot Tables
-- Pivot Charts
-- Excel Formulas
-- Slicers
-- Conditional Formatting
-- Data Cleaning Techniques
+Dashboard KPIs
+📦 Total Inventory Level
+🛒 Total Units Sold
+🚚 Total Units Ordered
+💰 Total Revenue
+📈 Average Demand Forecast
 
----
+Dashboard Visualizations
+Revenue by Product Category
+Revenue by Region
+Units Sold during Holiday / Promotion
+Inventory by Category
+Average Price vs Competitor Price
+Demand Forecast by Season
 
-## 📂 Dataset Information
+🗄️ SQL Analysis
+SQL Skills Demonstrated
+CREATE DATABASE
+CREATE TABLE
+Import CSV Data
+SELECT
+WHERE
+ORDER BY
+GROUP BY
+HAVING
+LIMIT
+DISTINCT
+Aggregate Functions
+Date Functions
+Business Questions Answered
+What is the total revenue?
+Which product category generates the highest revenue?
+Which region performs the best?
+Which stores generate the highest revenue?
+Which products have the highest sales?
+Which products have low inventory?
+How do promotions affect sales?
+How does weather impact sales?
+What are the monthly sales trends?
 
-The dataset consists of 20 columns covering retail inventory, sales, pricing, and demand analysis.
-
-### Original Dataset Columns
-
-- Date
-- Store ID
-- Product ID
-- Category
-- Region
-- Inventory Level
-- Units Sold
-- Units Ordered
-- Demand Forecast
-- Price
-- Discount
-- Weather Condition
-- Holiday / Promotion
-- Competitor Pricing
-- Seasonality
-
----
-
-## 📈 Key Performance Indicators (KPIs)
-
-The dashboard includes the following KPIs:
-
-- 📦 Total Inventory Level
-- 🛒 Total Units Sold
-- 🚚 Total Units Ordered
-- 💰 Total Revenue
-- 📈 Average Demand Forecast
-
----
-
-## 📊 Dashboard Visualizations
-
-The dashboard contains the following interactive charts:
-
-1. Revenue by Product Category
-2. Revenue by Region
-3. Units Sold during Holiday / Promotion
-4. Inventory by Product Category
-5. Average Price vs Competitor Price
-6. Demand Forecast by Season
-
----
-
-## 🎛️ Interactive Filters
-
-Users can interact with the dashboard using slicers:
-
-- Store ID
-- Region
-- Category
-- Season
-
-These filters update all KPIs and charts dynamically.
-
----
-
-## 🧮 Calculated Columns
-
-Additional business metrics were created using Excel formulas:
-
-- Final Price
-- Revenue
-
-Revenue was calculated as:
-
-Revenue = Final Price × Units Sold
-
-Final Price was calculated after applying the product discount.
-
----
-
-## 💡 Business Insights
-
-The dashboard helps answer important business questions such as:
-
-- Which product category generates the highest revenue?
-- Which region performs the best?
-- Which categories maintain the highest inventory?
-- How does demand vary across seasons?
-- Do holidays and promotions impact sales?
-- How do our product prices compare with competitors?
-
----
-
-## 📷 Dashboard Preview
-
-> *(Add your dashboard screenshot here.)*
-
-Example:
-
-```
-Dashboard.png
-```
-
----
-
-## 📁 Repository Structure
-
-```
-Retail-Store-Inventory-Sales-Dashboard-Excel
+📁 Repository Structure
+Retail-Inventory-Sales-Analysis
 │
-├── Dashboard.png
-├── Retail_Inventory_Sales_Dashboard.xlsx
-├── Dataset.csv
+├── Dataset/
+│   └── Inventory_project_SQL.csv
+│
+├── Excel/
+│   ├── Retail_Inventory_Sales_Dashboard.xlsx
+│
+├── SQL/
+│   ├── create_database.sql
+│   ├── create_table.sql
+│   └── inventory_analysis.sql
+│
+├── Screenshots/
+│   ├── dashboard.png 
+│
 └── README.md
-```
 
----
+🚀 Skills Demonstrated
+Data Cleaning
+Data Analysis
+Dashboard Design
+KPI Development
+Database Design
+SQL Query Writing
+Data Import
+Inventory Analysis
+Sales Analysis
+Business Intelligence
+Data Visualization
 
-## 🚀 Skills Demonstrated
+📷 Project Preview
+Excel Dashboard
 
-- Data Cleaning
-- Data Analysis
-- Dashboard Design
-- KPI Development
-- Business Analysis
-- Pivot Tables
-- Pivot Charts
-- Excel Formulas
-- Interactive Reporting
-- Data Visualization
+(Add your dashboard screenshot here.)
 
----
+SQL Analysis
 
-## 📬 Contact
+(Add screenshots of your database, table, and SQL query results here.)
+
+📬 Contact
 
 If you have any suggestions or feedback, feel free to connect with me through LinkedIn or GitHub.
-
----
 
 ⭐ If you found this project useful, consider giving the repository a star!
